@@ -20,7 +20,7 @@ public class HelloBaby {
     public static void main(String[] args) {
 //        say("hello");
         // static이라 바로 쓸 수 있다,
-        print("hello");
+        print("hello안녕");
     }
 
 }

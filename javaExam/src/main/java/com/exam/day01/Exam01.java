@@ -5,7 +5,7 @@ public class Exam01 {
         int i = 10;
         boolean flag = Boolean.parseBoolean(args[0]);
         //args[] > 우클릭-More Run/Debug-Modify...-Build run 3번째 줄 배열
-        if (flag)
+        if (flag) {
             System.out.println("Hello!!");
         }
 
