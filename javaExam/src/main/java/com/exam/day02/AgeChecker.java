@@ -1,4 +1,4 @@
-package day02;
+package com.exam.day02;
 
 import java.util.Scanner;
 
@@ -11,11 +11,12 @@ public class AgeChecker {
         }
     }
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        System.out.println("나이를 입력하세요");
-        System.out.print("입력 : ");
-        int age = sc.nextInt();
+//        Scanner sc = new Scanner(System.in);
+//
+//        System.out.println("나이를 입력하세요");
+//        System.out.print("입력 : ");
+//        int age = sc.nextInt();
+        int age = Integer.parseInt(args[0]);
         checker(age);
     }
 }
