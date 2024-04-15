@@ -49,7 +49,7 @@ public class MonthChecker {
         Scanner sc = new Scanner(System.in);
 
         int month;
-        
+
         do {
             System.out.print("월을 입력하세요 (1~12): ");
             month = sc.nextInt();
